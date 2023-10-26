@@ -1,4 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
+@import "./variables";
+@import "./main-comics";
 .btn_search {
   border: none;
   border-bottom: 2px solid blue;
@@ -20,7 +22,7 @@ a {
   font-size: 12px;
 }
 .footer_botton {
-  background-color: #303030;
+  background-color: $comics_dark;
 }
 .footer_botton img {
   width: 25px;
