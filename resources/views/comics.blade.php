@@ -27,7 +27,7 @@
   </div>
 
 </div>
-<section id="marketing" class="bg_botton">
+<div id="marketing" class="bg_botton">
   <div class="p-4 container d-flex justify-content-between align-items-center">
     @foreach( $linkPage as $link )
     <div>
@@ -36,6 +36,6 @@
     </div>
     @endforeach
   </div>
-</section>
+</div>
 
 @endsection
