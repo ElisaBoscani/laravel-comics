@@ -20,6 +20,11 @@ Route::get('/', function () {
 
 Route::get('/comics', function () {
     $comics = config('db.comics');
-
-    return view('comics', compact('comics'));
+    $linkPage = config('db.linkPage');
+    return view('comics', compact('comics', 'linkPage'));
 })->name('comics');
+
+Route::get('/characters', function () {
+
+    return view('characters');
+})->name('characters');
